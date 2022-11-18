@@ -1,0 +1,18 @@
+.notification-bar-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.notification-bar-main-header {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.notification-bar-main-header-unreadCount {
+}
+
+.notification-bar-main-header-tag {
+  margin: 0;
+}
