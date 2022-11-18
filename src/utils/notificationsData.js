@@ -1,0 +1,57 @@
+export const notifications = [
+  {
+    sentBy: 'Mark Webber',
+    message: 'reacted to your recent post',
+    highlightedMessage: 'My First Tournament Today!',
+    privateMessage: null,
+    isRead: false,
+    sentAt: '1m ago',
+  },
+  {
+    sentBy: 'Angela Gray',
+    message: 'followed you',
+    privateMessage: null,
+    highlightedMessage: '',
+    isRead: false,
+    sentAt: '5m ago',
+  },
+  {
+    sentBy: 'Jacob Thompson',
+    message: 'has joined your group',
+    highlightedMessage: 'Chess Club',
+    privateMessage: null,
+    isRead: false,
+    sentAt: '1day ago',
+  },
+  {
+    sentBy: 'Rizky Hasanuddin',
+    message: 'sent you a private message',
+    highlightedMessage: '',
+    privateMessage:
+      "'Hello, thanks for setting up the chess club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    isRead: true,
+    sentAt: '5days ago',
+  },
+  {
+    sentBy: 'Kimberly Smith',
+    message: 'commented on your picture',
+    highlightedMessage: '',
+    privateMessage: null,
+    isRead: true,
+    sentAt: '1week ago',
+  },
+  {
+    sentBy: 'Nathan Peterson',
+    message: 'reacted to your recent post',
+    highlightedMessage: '5 end-game strategies to increase your winrate',
+    isRead: true,
+    sentAt: '2weeks ago',
+  },
+  {
+    sentBy: 'Anna Kim',
+    message: 'left the group',
+    highlightedMessage: 'Chess Club',
+    isRead: true,
+    sentAt: '2weeks ago',
+  },
+];
