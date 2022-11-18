@@ -1,5 +1,14 @@
+import avatarAngelaGray from '../assets/images/avatar-angela-gray.webp';
+import avatarAnnaKim from '../assets/images/avatar-anna-kim.webp';
+import avatarJacobThompson from '../assets/images/avatar-jacob-thompson.webp';
+import avatarKimberlySmith from '../assets/images/avatar-kimberly-smith.webp';
+import avatarMarkWebber from '../assets/images/avatar-mark-webber.webp';
+import avatarNathanPeterson from '../assets/images/avatar-nathan-peterson.webp';
+import avatarRizkyHasanuddin from '../assets/images/avatar-rizky-hasanuddin.webp';
+
 export const notifications = [
   {
+    avatar: avatarMarkWebber,
     sentBy: 'Mark Webber',
     message: 'reacted to your recent post',
     highlightedMessage: 'My First Tournament Today!',
@@ -8,6 +17,7 @@ export const notifications = [
     sentAt: '1m ago',
   },
   {
+    avatar: avatarAngelaGray,
     sentBy: 'Angela Gray',
     message: 'followed you',
     privateMessage: null,
@@ -16,6 +26,7 @@ export const notifications = [
     sentAt: '5m ago',
   },
   {
+    avatar: avatarJacobThompson,
     sentBy: 'Jacob Thompson',
     message: 'has joined your group',
     highlightedMessage: 'Chess Club',
@@ -24,6 +35,7 @@ export const notifications = [
     sentAt: '1day ago',
   },
   {
+    avatar: avatarRizkyHasanuddin,
     sentBy: 'Rizky Hasanuddin',
     message: 'sent you a private message',
     highlightedMessage: '',
@@ -33,6 +45,7 @@ export const notifications = [
     sentAt: '5days ago',
   },
   {
+    avatar: avatarKimberlySmith,
     sentBy: 'Kimberly Smith',
     message: 'commented on your picture',
     highlightedMessage: '',
@@ -41,6 +54,7 @@ export const notifications = [
     sentAt: '1week ago',
   },
   {
+    avatar: avatarNathanPeterson,
     sentBy: 'Nathan Peterson',
     message: 'reacted to your recent post',
     highlightedMessage: '5 end-game strategies to increase your winrate',
@@ -48,6 +62,7 @@ export const notifications = [
     sentAt: '2weeks ago',
   },
   {
+    avatar: avatarAnnaKim,
     sentBy: 'Anna Kim',
     message: 'left the group',
     highlightedMessage: 'Chess Club',
