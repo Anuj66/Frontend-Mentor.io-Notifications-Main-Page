@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin: 2rem 0;
 }
 
 .app {
@@ -21,4 +21,7 @@
 
 .message-box {
   margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }

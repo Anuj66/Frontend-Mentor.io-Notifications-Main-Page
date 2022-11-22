@@ -1,0 +1,75 @@
+.message-div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+.message-content-read {
+  background-color: var(--clr-very-light-grayish-blue);
+  border-radius: 0.5rem;
+}
+
+.message-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-avatar-img {
+  width: 2.5rem;
+  object-fit: contain;
+}
+
+.message-content-p {
+  font-size: 0.8rem;
+}
+
+.message-content-p-span-sentBy {
+  font-weight: 900;
+  margin-right: 0.4rem;
+}
+
+.message-content-p-span-message {
+  color: var(--clr-dark-grayish-blue);
+  margin-right: 0.4rem;
+}
+
+.message-content-p-sentAt {
+  font-size: 0.8rem;
+  color: var(--clr-dark-grayish-blue);
+}
+
+.message-content-p-span-reddot-img {
+  width: 0.5rem;
+}
+
+.message-content-p-span-highlightedMessage {
+  margin-right: 0.4rem;
+  font-weight: 600;
+}
+
+.message-content-p-span-highlightedMessage-darkBlue {
+  color: var(--clr-very-dark-blue);
+}
+
+.message-content-p-span-highlightedMessage-blue {
+  color: var(--clr-blue);
+}
+
+.message-content-privateMessage {
+  border: 0.5px solid var(--clr-grayish-blue);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 70%;
+  margin-inline-start: auto;
+}
+
+.message-content-privateMessage-p {
+  font-size: 0.8rem;
+  margin: 0;
+  text-align: justify;
+  line-height: 1.2rem;
+  color: var(--clr-dark-grayish-blue);
+}
