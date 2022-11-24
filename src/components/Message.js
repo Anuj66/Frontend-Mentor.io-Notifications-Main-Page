@@ -37,6 +37,11 @@ const Message = ({ data }) => {
                 />
               </span>
             )}
+            {data.image && (
+              <span className="message-content-p-span-image">
+                <img src={data.image} alt="" />
+              </span>
+            )}
           </p>
           <p className="message-content-p-sentAt">{data?.sentAt}</p>
         </div>

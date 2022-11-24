@@ -29,6 +29,8 @@
 .message-content-p-span-sentBy {
   font-weight: 900;
   margin-right: 0.4rem;
+  transition: 0.2s ease;
+  cursor: pointer;
 }
 
 .message-content-p-span-message {
@@ -48,6 +50,8 @@
 .message-content-p-span-highlightedMessage {
   margin-right: 0.4rem;
   font-weight: 600;
+  transition: 0.2s ease;
+  cursor: pointer;
 }
 
 .message-content-p-span-highlightedMessage-darkBlue {
@@ -64,6 +68,8 @@
   padding: 1.5rem;
   width: 70%;
   margin-inline-start: auto;
+  cursor: pointer;
+  transition: 0.2s ease;
 }
 
 .message-content-privateMessage-p {
@@ -72,4 +78,19 @@
   text-align: justify;
   line-height: 1.2rem;
   color: var(--clr-dark-grayish-blue);
+}
+
+.message-content-p-span-highlightedMessage:hover {
+  color: var(--clr-blue);
+  transition: 0.2s ease;
+}
+
+.message-content-p-span-sentBy:hover {
+  color: var(--clr-blue);
+  transition: 0.2s ease;
+}
+
+.message-content-privateMessage:hover {
+  background-color: var(--clr-light-grayish-blue-1);
+  transition: 0.2s ease;
 }

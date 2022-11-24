@@ -5,6 +5,7 @@ import avatarKimberlySmith from '../assets/images/avatar-kimberly-smith.webp';
 import avatarMarkWebber from '../assets/images/avatar-mark-webber.webp';
 import avatarNathanPeterson from '../assets/images/avatar-nathan-peterson.webp';
 import avatarRizkyHasanuddin from '../assets/images/avatar-rizky-hasanuddin.webp';
+import imageChess from '../assets/images/image-chess.webp';
 
 export const notifications = [
   {
@@ -16,6 +17,7 @@ export const notifications = [
     isRead: false,
     sentAt: '1 m ago',
     color: 'darkBlue',
+    image: null,
   },
   {
     avatar: avatarAngelaGray,
@@ -26,6 +28,7 @@ export const notifications = [
     isRead: false,
     sentAt: '5 m ago',
     color: null,
+    image: null,
   },
   {
     avatar: avatarJacobThompson,
@@ -36,6 +39,7 @@ export const notifications = [
     isRead: false,
     sentAt: '1 day ago',
     color: 'blue',
+    image: null,
   },
   {
     avatar: avatarRizkyHasanuddin,
@@ -47,6 +51,7 @@ export const notifications = [
     isRead: true,
     sentAt: '5 days ago',
     color: null,
+    image: null,
   },
   {
     avatar: avatarKimberlySmith,
@@ -57,6 +62,7 @@ export const notifications = [
     isRead: true,
     sentAt: '1 week ago',
     color: null,
+    image: imageChess,
   },
   {
     avatar: avatarNathanPeterson,
@@ -66,6 +72,7 @@ export const notifications = [
     isRead: true,
     sentAt: '2 weeks ago',
     color: 'darkBlue',
+    image: null,
   },
   {
     avatar: avatarAnnaKim,
@@ -75,5 +82,6 @@ export const notifications = [
     isRead: true,
     sentAt: '2 weeks ago',
     color: 'blue',
+    image: null,
   },
 ];

@@ -29,4 +29,11 @@
   justify-content: center;
   align-items: center;
   color: var(--clr-grayish-blue);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.notification-bar-main-markAsRead:hover {
+  color: var(--clr-blue);
+  transition: 0.2s ease;
 }
